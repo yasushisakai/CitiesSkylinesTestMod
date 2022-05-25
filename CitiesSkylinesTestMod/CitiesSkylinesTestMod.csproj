@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CitiesSkylinesTestMod.cs" />
+    <Compile Include="CustomObject.cs" />
     <Compile Include="DemandViewer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestModLoading.cs" />

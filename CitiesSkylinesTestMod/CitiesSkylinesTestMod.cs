@@ -5,11 +5,13 @@ namespace CitiesSkylinesTestMod
 {
     public class CitiesSkylinesTestMod : IUserMod
     {
-        public string Name {
-            get {
+        public string Name
+        {
+            get
+            {
                 return "Test Mod";
             }
-         }
+        }
 
         public string Description
         {
@@ -19,4 +21,5 @@ namespace CitiesSkylinesTestMod
             }
         }
     }
+
 }
