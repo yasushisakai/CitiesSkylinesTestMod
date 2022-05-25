@@ -5,8 +5,18 @@ namespace CitiesSkylinesTestMod
 {
     public class CitiesSkylinesTestMod : IUserMod
     {
-        public string Name => "Test Mod";
+        public string Name {
+            get {
+                return "Test Mod";
+            }
+         }
 
-        public string Description => "This is a test mod.";
+        public string Description
+        {
+            get
+            {
+                return "This is a test mod.";
+            }
+        }
     }
 }
