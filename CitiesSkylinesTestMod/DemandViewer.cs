@@ -19,6 +19,7 @@ namespace CitiesSkylinesTestMod
 
         public override int OnCalculateCommercialDemand(int originalDemand)
         {
+
             string mes = "commercial demand: " + originalDemand;
             Debug.Log(mes);
             return originalDemand;
